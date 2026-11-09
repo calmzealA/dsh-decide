@@ -5,6 +5,14 @@
   "description": "Multi-provider decision models for DeepSeek Harness: TypeSafe Jev, TokenRhythm NeoHorse-Jev, OpenAI Decisions, and local System One endpoints.",
   "author": "老陈聊AI",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calmzealA/dsh-decide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/calmzealA/dsh-decide/issues"
+  },
+  "homepage": "https://github.com/calmzealA/dsh-decide#readme",
   "engines": {
     "node": ">=20"
   },
