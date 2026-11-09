@@ -1,5 +1,7 @@
 # dsh-decide
 
+English | [简体中文](README.zh.md)
+
 Multi-provider **decision models** for DeepSeek Harness (DSH): one pair of agent tools over TypeSafe Jev, TokenRhythm NeoHorse-Jev, OpenAI Decisions, and local System One servers.
 
 > **Decision models are not chat models.** They take a body of text (`state`) plus named typed questions and return probabilities / labels / scores — no prose, no streaming, no messages. That is why `dsh-decide` adds tools and a settings page instead of a model in the model picker.
@@ -169,7 +171,7 @@ The suite is offline: adapters, dialect normalization, limits, thresholds, retri
 
 ## About
 
-Maintained by [老陈聊AI](https://www.cnblogs.com/calmzeal/). Provider website links carry the `aichen` referral tag so the author can track partnerships; the tag is a single constant in `lib/providers.js`.
+Maintained by [老陈聊AI (Xiaohongshu)](https://www.xiaohongshu.com/search_result?keyword=%E8%80%81%E9%99%88%E8%81%8AAI). Provider website links carry the `aichen` referral tag so the author can track partnerships; the tag is a single constant in `lib/providers.js`.
 
 ## License
 
