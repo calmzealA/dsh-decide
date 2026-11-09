@@ -25,7 +25,7 @@ window.__ModuleLoader__.load({
     const BASE = apiBase()
     const AUTHOR = {
       name: '老陈聊AI',
-      url: 'https://www.cnblogs.com/calmzeal/',
+      url: 'https://www.xiaohongshu.com/search_result?keyword=%E8%80%81%E9%99%88%E8%81%8AAI',
     }
 
     async function request(path, body, method) {
