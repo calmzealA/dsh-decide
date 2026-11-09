@@ -1,5 +1,7 @@
 # dsh-decide
 
+[English](README.md) | 简体中文
+
 为 DeepSeek Harness（DSH）接入**决策模型**：用同一组工具调用 TypeSafe Jev、基元律动 NeoHorse-Jev、OpenAI Decisions 以及本地 System One 服务。
 
 > **决策模型不是聊天模型。** 它接收一段 `state` 和若干命名问题，返回概率 / 选项 / 分数，不生成文本、不流式、没有 messages。所以本插件增加的是工具和设置页，而不是模型选择器里的一个模型。
@@ -167,7 +169,7 @@ npm test
 
 ## 关于
 
-由 [老陈聊AI](https://www.cnblogs.com/calmzeal/) 维护。提供商官网链接会带上 `aichen` 推广参数，方便后续与厂商合作；参数是 `lib/providers.js` 里的一个常量。
+由 [老陈聊AI（小红书）](https://www.xiaohongshu.com/search_result?keyword=%E8%80%81%E9%99%88%E8%81%8AAI) 维护。提供商官网链接会带上 `aichen` 推广参数，方便后续与厂商合作；参数是 `lib/providers.js` 里的一个常量。
 
 ## License
 
