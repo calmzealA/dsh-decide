@@ -1,0 +1,6 @@
+# Mount dsh-decide into the profile. Provider credentials are references
+# (TYPESAFE_API_KEY, TOKENRHYTHM_API_KEY, OPENAI_API_KEY) resolved through the
+# credentials service or the process environment; no secret belongs here.
+- insert:
+    - id: decide
+      name: dsh-decide

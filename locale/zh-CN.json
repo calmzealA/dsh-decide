@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "决策模型",
+    "description": "向决策模型（TypeSafe Jev、基元律动 NeoHorse-Jev、OpenAI Decisions 或本地 System One 端点）提结构化问题，拿回带概率的答案。"
+  }
+}

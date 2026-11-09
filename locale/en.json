@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Decisions",
+    "description": "Ask decision models (TypeSafe Jev, TokenRhythm NeoHorse-Jev, OpenAI Decisions, or a local System One endpoint) for typed, calibrated answers."
+  }
+}

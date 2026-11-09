@@ -1,0 +1,60 @@
+{
+  "name": "dsh-decide",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Multi-provider decision models for DeepSeek Harness: TypeSafe Jev, TokenRhythm NeoHorse-Jev, OpenAI Decisions, and local System One endpoints.",
+  "author": "老陈聊AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "docs"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "decision",
+    "jev",
+    "typesafe",
+    "tokenrhythm",
+    "neo-horse",
+    "system-one",
+    "openai-decisions"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/adapters.test.js && node test/config.test.js && node test/transport.test.js && node test/runtime.test.js && node test/guard.test.js && node test/triage.test.js && node test/insights.test.js && node test/host.test.js && node test/client.test.js && node test/render.test.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}
